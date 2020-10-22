@@ -18,6 +18,9 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for ACT_EVT_LOG
 -- ----------------------------
+CREATE DATABASE IF NOT EXISTS synext_paas_govern DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+USE synext_paas_govern;
+
 DROP TABLE IF EXISTS `ACT_EVT_LOG`;
 CREATE TABLE `ACT_EVT_LOG` (
   `LOG_NR_` bigint(20) NOT NULL AUTO_INCREMENT,
